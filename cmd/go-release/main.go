@@ -38,7 +38,7 @@ func main() {
 		newVersion := version.NextVersion(lastTag, bumpType, project.TagPrefix)
 		fmt.Println("Nova versão:", newVersion)
 
-		ch := changelog.Generate(commitsAfterTag, project.Bump)
+		ch := changelog.Generate(commitsAfterTag, project.Bump, newVersion)
 		if err := os.WriteFile("CHANGELOG.md", []byte(ch), 0644); err != nil {
 			panic(err)
 		}
