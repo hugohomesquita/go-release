@@ -8,19 +8,3 @@ projects:
         - "feat"
       patch_keywords:
         - "fix"
-#    changelog:
-#      sort: "date"
-#      categories:
-#        - title: "🚀 Features"
-#          labels:
-#            - "feature"
-#        - title: "🐛 Bug Fixes"
-#          labels:
-#            - "bug"
-#        - title: "🧰 Maintenance"
-#          labels:
-#            - "chore"
-#            - "refactor"
-#        - title: "📝 Documentation"
-#          labels:
-#            - "docs"
